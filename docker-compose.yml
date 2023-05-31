@@ -9,5 +9,5 @@ services:
     ports:
       - 8080:8080
     volumes:
-      - ./src:/app
-    working_dir: /app
+      - ./src:/src # ! Cannot use /app https://github.com/nuxt/nuxt/issues/20446#issuecomment-1531917276
+    working_dir: /src # ! Cannot use /app https://github.com/nuxt/nuxt/issues/20446#issuecomment-1531917276

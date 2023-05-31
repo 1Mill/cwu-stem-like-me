@@ -9,5 +9,5 @@ services:
     ports:
       - 8080:8080
     volumes:
-      - ./:/app
+      - ./src:/app
     working_dir: /app

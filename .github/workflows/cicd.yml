@@ -1,0 +1,31 @@
+name: cicd
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checking out code ...
+        uses: actions/checkout@v3
+
+      - name: Installing node ...
+        uses: actions/setup-node@v3
+        with:
+          node-version: '20.x'
+
+      - name: Installing dependencies ...
+        run: npm ci
+        working-directory: ./src
+
+      - name: Building website ...
+        run: npm run generate
+        working-directory: ./src
+
+      - name: Deploying website ...
+        uses: JamesIves/github-pages-deploy-action@v4
+        with:
+          folder: ./src/dist

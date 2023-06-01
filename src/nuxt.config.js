@@ -5,7 +5,7 @@ export default {
 	// Global page headers: https://go.nuxtjs.dev/config-head
 	head: {
 		titleTemplate: '%s | CWU STEM Like Me',
-		title: 'CWU STEM Like Me',
+		title: 'Home',
 		htmlAttrs: {
 			lang: 'en'
 		},

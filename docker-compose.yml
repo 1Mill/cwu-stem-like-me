@@ -8,7 +8,7 @@ services:
       HOST: 0.0.0.0
       PORT: 8080
     ports:
-      - 24678:24678
+      - 24678:24678 # ! Support HMR in nuxt@^3.5.2
       - 8080:8080
     volumes:
       - ./src:/src # ! Cannot use /app https://github.com/nuxt/nuxt/issues/20446#issuecomment-1531917276

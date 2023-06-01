@@ -19,7 +19,7 @@
 			</button>
 		</section>
 
-		<p>FFFF</p>
+		<p>GGGG</p>
 
 		<!-- List of valid colors -->
 		<!-- https://www.w3schools.com/cssref/css_colors.php -->
@@ -35,8 +35,6 @@ const DEFAULT_STYLE = {
 	padding: '1rem',
 	width: '100px',
 }
-
-console.log("Hello World!")
 
 export default {
 	data: function () {

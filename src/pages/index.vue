@@ -19,7 +19,7 @@
 			</button>
 		</section>
 
-		<p>GGGG</p>
+		<p>FFFF</p>
 
 		<!-- List of valid colors -->
 		<!-- https://www.w3schools.com/cssref/css_colors.php -->

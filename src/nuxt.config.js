@@ -42,9 +42,8 @@ export default {
 	// Build Configuration: https://go.nuxtjs.dev/config-build
 	build: {
 	},
-  	/*
-	** Configure webpack to pick up file changes
-	*/
+
+	// Configure webpack to pick up file changes
 	watchers: {
 		webpack: {
 			poll: true

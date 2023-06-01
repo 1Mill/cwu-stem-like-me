@@ -33,4 +33,4 @@ jobs:
       - name: Deploying website ...
         uses: JamesIves/github-pages-deploy-action@v4
         with:
-          folder: ./src/dist
+          folder: ./src/.output

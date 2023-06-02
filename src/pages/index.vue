@@ -22,6 +22,8 @@
 		<!-- List of valid colors -->
 		<!-- https://www.w3schools.com/cssref/css_colors.php -->
 		<section>
+			<button @click="() => addStyle({ backgroundColor: 'purple'})">Hello World!</button>
+			<button @click="() => addStyle({background: 'blue'})">jv</button>
 		</section>
 	</main>
 </template>

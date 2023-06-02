@@ -32,6 +32,7 @@
 			<button @click="()=>addStyle({ transform: 'rotate(20deg)' })">jose</button>
 			<button @click="()=>addStyle({background: 'green'})">gtr</button>
 			<button @click="()=>addStyle({transform: 'rotate(69deg)'})">pig</button>
+			<button @click="()=>addStyle({background: 'red'})">Hello I like this</button>
 
 		</section>
 	</main>

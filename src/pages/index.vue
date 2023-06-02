@@ -30,6 +30,7 @@
 			<button @click="() => addStyle({ borderRadius: '100%', backgroundColor: 'green', transform: 'skew(30deg)'})">Door</button>
 			<button @click="()=>addStyle({background: 'pink'})">mr roll</button>
 			<button @click="()=>addStyle({ transform: 'rotate(20deg)' })">jose</button>
+			<button @click="()=>addStyle({background: 'green'})">gtr</button>
 
 		</section>
 	</main>

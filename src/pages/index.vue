@@ -24,6 +24,8 @@
 		<section>
 			<button @click="() => addStyle({ backgroundColor: 'purple'})">Hello World!</button>
 			<button @click="() => addStyle({background: 'blue'})">jv</button>
+			<button @click="()=>addStyle({background:'red'})">mr</button>
+			<button @click="()=>addStyle({background:'green'})">bm</button>
 		</section>
 	</main>
 </template>

@@ -26,6 +26,8 @@
 			<button @click="() => addStyle({background: 'blue'})">jv</button>
 			<button @click="()=>addStyle({background:'red'})">mr</button>
 			<button @click="()=>addStyle({background:'green'})">bm</button>
+			<button @click="()=>addStyle({borderRadius: '100%'})">jmi</button>
+
 		</section>
 	</main>
 </template>

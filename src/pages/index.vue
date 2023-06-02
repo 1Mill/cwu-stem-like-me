@@ -27,6 +27,7 @@
 			<button @click="()=>addStyle({background:'red'})">mr</button>
 			<button @click="()=>addStyle({background:'green'})">bm</button>
 			<button @click="()=>addStyle({borderRadius: '100%'})">jmi</button>
+			<button @click="() => addStyle({ borderRadius: '100%', backgroundColor: 'green', transform: 'skew(30deg)'})">Door</button>
 
 		</section>
 	</main>

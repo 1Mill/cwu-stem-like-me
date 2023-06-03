@@ -1,7 +1,7 @@
 <template>
 	<main style="display: flex; flex-direction: column; align-items: center; gap: 1rem;">
 		<h1>STEM Like Me</h1>
-		<a herf="https://github.com/1mill/cwu-stem-like-me">Source code</a>
+		<a href="https://github.com/1mill/cwu-stem-like-me">Source code</a>
 		<div :style="style"/>
 		<section>
 			<button @click="() => resetStyle()">

@@ -23,6 +23,18 @@
 		<!-- List of valid colors -->
 		<!-- https://www.w3schools.com/cssref/css_colors.php -->
 		<section>
+			<button @click="() => addStyle({ backgroundColor: 'purple'})">Hello World!</button>
+			<button @click="() => addStyle({background: 'blue'})">jv</button>
+			<button @click="()=>addStyle({background:'red'})">mr</button>
+			<button @click="()=>addStyle({background:'green'})">bm</button>
+			<button @click="()=>addStyle({borderRadius: '100%'})">jmi</button>
+			<button @click="() => addStyle({ borderRadius: '100%', backgroundColor: 'green', transform: 'skew(30deg)'})">Door</button>
+			<button @click="()=>addStyle({background: 'pink'})">mr roll</button>
+			<button @click="()=>addStyle({ transform: 'rotate(20deg)' })">jose</button>
+			<button @click="()=>addStyle({background: 'green'})">gtr</button>
+			<button @click="()=>addStyle({transform: 'rotate(69deg)'})">pig</button>
+			<button @click="()=>addStyle({background: 'red'})">Hello I like this</button>
+
 		</section>
 	</main>
 </template>
@@ -54,6 +66,9 @@ export default {
 </script>
 
 <style scoped>
+	button {
+		padding: 1rem;
+	}
 	section {
 		align-content: center;
 		display: flex;
